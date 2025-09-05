@@ -1,10 +1,9 @@
 #include <locale.h>
 
 int main(){
-    // É uma boa prática chamar setlocale apenas uma vez, no início do programa.
+    
     setlocale(LC_ALL, "pt_BR.UTF-8");
     
-    // Corrigi o estado: Diamantina fica em Minas Gerais.
     char *estado1 = "Bahia";
     char codigo1[] = "C07";
     char cidade1[] = "Diamantina";
