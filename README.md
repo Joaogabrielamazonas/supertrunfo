@@ -1,0 +1,2 @@
+# supertrunfo
+jogo de cartas
